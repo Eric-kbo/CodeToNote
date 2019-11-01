@@ -1,0 +1,3075 @@
+{
+  "ret": 0,
+  "data": [
+    {
+      "value": -1,
+      "label": "无分类",
+      "label_raw": "undef",
+      "children": []
+    },
+    {
+      "value": 11,
+      "label": "娱乐",
+      "label_raw": "ent",
+      "children": [
+        {
+          "value": 21,
+          "label": "娱乐明星",
+          "label_raw": "ent_star",
+          "children": [
+            {
+              "value": 31,
+              "label": "娱乐资讯",
+              "label_raw": "ent_star_news"
+            },
+            {
+              "value": 32,
+              "label": "专访访谈",
+              "label_raw": "ent_star_zhuanfang"
+            },
+            {
+              "value": 33,
+              "label": "八卦爆料",
+              "label_raw": "ent_star_bagua"
+            },
+            {
+              "value": 34,
+              "label": "追星饭拍",
+              "label_raw": "ent_star_zhuixing"
+            },
+            {
+              "value": 35,
+              "label": "自制混剪",
+              "label_raw": "ent_star_remix"
+            },
+            {
+              "value": 36,
+              "label": "其他",
+              "label_raw": "ent_star_other"
+            }
+          ]
+        },
+        {
+          "value": 22,
+          "label": "电影",
+          "label_raw": "ent_movie",
+          "children": [
+            {
+              "value": 37,
+              "label": "电影混剪",
+              "label_raw": "ent_movie_remix"
+            },
+            {
+              "value": 38,
+              "label": "电影片段",
+              "label_raw": "ent_movie_pianduan"
+            },
+            {
+              "value": 39,
+              "label": "电影解说",
+              "label_raw": "ent_movie_jieshuo"
+            },
+            {
+              "value": 310,
+              "label": "恶搞配音",
+              "label_raw": "ent_movie_egaopeiyin"
+            },
+            {
+              "value": 311,
+              "label": "电影资讯",
+              "label_raw": "ent_movie_info"
+            },
+            {
+              "value": 312,
+              "label": "预告花絮",
+              "label_raw": "ent_movie_preview"
+            },
+            {
+              "value": 313,
+              "label": "微电影",
+              "label_raw": "ent_movie_weidianying"
+            },
+            {
+              "value": 314,
+              "label": "其他",
+              "label_raw": "ent__movie_other"
+            }
+          ]
+        },
+        {
+          "value": 23,
+          "label": "电视剧",
+          "label_raw": "ent_Tvplay",
+          "children": [
+            {
+              "value": 315,
+              "label": "国内预告资讯",
+              "label_raw": "ent_Tvplay_domesticpreview"
+            },
+            {
+              "value": 316,
+              "label": "国内电视剧片段",
+              "label_raw": "ent_Tvplay_domestic"
+            },
+            {
+              "value": 317,
+              "label": "韩剧",
+              "label_raw": "ent_Tvplay_korea"
+            },
+            {
+              "value": 318,
+              "label": "日剧",
+              "label_raw": "ent_Tvplay_japan"
+            },
+            {
+              "value": 319,
+              "label": "美剧",
+              "label_raw": "ent_Tvplay_USA"
+            },
+            {
+              "value": 320,
+              "label": "英剧",
+              "label_raw": "ent_Tvplay_UK"
+            },
+            {
+              "value": 321,
+              "label": "恶搞配音",
+              "label_raw": "ent_Tvplay_egaopeiyin"
+            },
+            {
+              "value": 322,
+              "label": "自制混剪",
+              "label_raw": "ent_Tvplay_remix"
+            },
+            {
+              "value": 323,
+              "label": "电视剧解说",
+              "label_raw": "ent_Tvplay_jieshuo"
+            },
+            {
+              "value": 324,
+              "label": "其他",
+              "label_raw": "ent_Tvplay_other"
+            }
+          ]
+        },
+        {
+          "value": 24,
+          "label": "综艺",
+          "label_raw": "ent_show",
+          "children": [
+            {
+              "value": 325,
+              "label": "晚会盛典",
+              "label_raw": "ent_show_wanhui"
+            },
+            {
+              "value": 326,
+              "label": "内地综艺",
+              "label_raw": "ent_show_domestic"
+            },
+            {
+              "value": 327,
+              "label": "韩国综艺",
+              "label_raw": "ent_show_korea"
+            },
+            {
+              "value": 328,
+              "label": "日本综艺",
+              "label_raw": "ent_show_japan"
+            },
+            {
+              "value": 329,
+              "label": "欧美综艺",
+              "label_raw": "ent_show_western"
+            },
+            {
+              "value": 330,
+              "label": "其他",
+              "label_raw": "ent_show_other"
+            }
+          ]
+        },
+        {
+          "value": 25,
+          "label": "音乐",
+          "label_raw": "ent_music",
+          "children": [
+            {
+              "value": 331,
+              "label": "明星音乐",
+              "label_raw": "ent_music_star"
+            },
+            {
+              "value": 332,
+              "label": "影视原声",
+              "label_raw": "ent_music_movie"
+            },
+            {
+              "value": 333,
+              "label": "偏明星类的网红翻唱",
+              "label_raw": "ent_music_wanghong"
+            },
+            {
+              "value": 334,
+              "label": "音乐选集",
+              "label_raw": "ent_music_list"
+            },
+            {
+              "value": 335,
+              "label": "音乐节",
+              "label_raw": "ent_music_yinyuejie"
+            },
+            {
+              "value": 336,
+              "label": "其他",
+              "label_raw": "ent_music_other"
+            }
+          ]
+        },
+        {
+          "value": 26,
+          "label": "网红其他",
+          "label_raw": "ent_onlinestar",
+          "children": [
+            {
+              "value": 3271,
+              "label": "网红其他-其他",
+              "label_raw": "ent_onlinestar_other"
+            }
+          ]
+        },
+        {
+          "value": 27,
+          "label": "其他",
+          "label_raw": "ent_other",
+          "children": [
+            {
+              "value": 3272,
+              "label": "其他-其他",
+              "label_raw": "ent_other_other"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": 12,
+      "label": "时尚",
+      "label_raw": "fashion",
+      "children": [
+        {
+          "value": 28,
+          "label": "搭配",
+          "label_raw": "fashion_collocation",
+          "children": [
+            {
+              "value": 337,
+              "label": "服饰搭配",
+              "label_raw": "fashion_collocation_clothes"
+            },
+            {
+              "value": 338,
+              "label": "配饰搭配",
+              "label_raw": "fashion_collocation_accessories"
+            },
+            {
+              "value": 339,
+              "label": "鞋靴鞋包搭配",
+              "label_raw": "fashion_collocation_leather"
+            },
+            {
+              "value": 340,
+              "label": "大牌推荐",
+              "label_raw": "fashion_collocation_luxury"
+            },
+            {
+              "value": 341,
+              "label": "全套搭配",
+              "label_raw": "fashion_collocation_fullset"
+            },
+            {
+              "value": 342,
+              "label": "其他",
+              "label_raw": "fashion_collocation_other"
+            }
+          ]
+        },
+        {
+          "value": 29,
+          "label": "美妆",
+          "label_raw": "fashion_makeup",
+          "children": [
+            {
+              "value": 343,
+              "label": "彩妆",
+              "label_raw": "fashion_makeup_color"
+            },
+            {
+              "value": 344,
+              "label": "仿妆",
+              "label_raw": "fashion_makeup_copy"
+            },
+            {
+              "value": 345,
+              "label": "护肤",
+              "label_raw": "fashion_makeup_protection"
+            },
+            {
+              "value": 346,
+              "label": "评测对比",
+              "label_raw": "fashion_makeup_test"
+            },
+            {
+              "value": 347,
+              "label": "妆前妆后",
+              "label_raw": "fashion_makeup_compare"
+            },
+            {
+              "value": 348,
+              "label": "其他",
+              "label_raw": "fashion_makeup_other"
+            }
+          ]
+        },
+        {
+          "value": 210,
+          "label": "时尚潮流",
+          "label_raw": "fashion_trend",
+          "children": [
+            {
+              "value": 349,
+              "label": "时尚热点",
+              "label_raw": "fashion_trend_hot"
+            },
+            {
+              "value": 350,
+              "label": "明星穿搭",
+              "label_raw": "fashion_trend_star"
+            },
+            {
+              "value": 351,
+              "label": "超模秀场",
+              "label_raw": "fashion_trend_model"
+            },
+            {
+              "value": 352,
+              "label": "其他",
+              "label_raw": "fashion_trend_other"
+            }
+          ]
+        },
+        {
+          "value": 211,
+          "label": "美体",
+          "label_raw": "fashion_meiti",
+          "children": [
+            {
+              "value": 353,
+              "label": "身体护理",
+              "label_raw": "fashion_meiti_body"
+            },
+            {
+              "value": 354,
+              "label": "养生美容",
+              "label_raw": "fashion_meiti_yangsheng"
+            },
+            {
+              "value": 355,
+              "label": "美甲",
+              "label_raw": "fashion_meiti_nail"
+            },
+            {
+              "value": 356,
+              "label": "美发",
+              "label_raw": "fashion_meiti_hair"
+            },
+            {
+              "value": 357,
+              "label": "其他",
+              "label_raw": "fashion_meiti_other"
+            }
+          ]
+        },
+        {
+          "value": 212,
+          "label": "美图美拍",
+          "label_raw": "fashion_photo",
+          "children": [
+            {
+              "value": 3273,
+              "label": "美图美拍-其他",
+              "label_raw": "fashion_photo_other"
+            }
+          ]
+        },
+        {
+          "value": 213,
+          "label": "其他",
+          "label_raw": "fashion_other",
+          "children": [
+            {
+              "value": 3274,
+              "label": "其他-其他",
+              "label_raw": "fashion_other_other"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": 13,
+      "label": "动漫",
+      "label_raw": "comic",
+      "children": [
+        {
+          "value": 214,
+          "label": "国产动漫",
+          "label_raw": "comic_china",
+          "children": [
+            {
+              "value": 3275,
+              "label": "国产动漫-其他",
+              "label_raw": "comic_china_other"
+            }
+          ]
+        },
+        {
+          "value": 215,
+          "label": "日本动漫",
+          "label_raw": "comic_japan",
+          "children": [
+            {
+              "value": 3276,
+              "label": "日本动漫-其他",
+              "label_raw": "comic_japan_other"
+            }
+          ]
+        },
+        {
+          "value": 216,
+          "label": "韩国动漫",
+          "label_raw": "comic_korea",
+          "children": [
+            {
+              "value": 3277,
+              "label": "韩国动漫-其他",
+              "label_raw": "comic_korea_other"
+            }
+          ]
+        },
+        {
+          "value": 217,
+          "label": "欧美动漫",
+          "label_raw": "comic_western",
+          "children": [
+            {
+              "value": 3278,
+              "label": "欧美动漫-其他",
+              "label_raw": "comic_western_other"
+            }
+          ]
+        },
+        {
+          "value": 218,
+          "label": "少儿动漫",
+          "label_raw": "comic_chil",
+          "children": [
+            {
+              "value": 3279,
+              "label": "少儿动漫-其他",
+              "label_raw": "comic_chil_other"
+            }
+          ]
+        },
+        {
+          "value": 219,
+          "label": "动漫盘点",
+          "label_raw": "comic_pandian",
+          "children": [
+            {
+              "value": 3280,
+              "label": "动漫盘点-其他",
+              "label_raw": "comic_pandian_other"
+            }
+          ]
+        },
+        {
+          "value": 220,
+          "label": "声优资讯",
+          "label_raw": "comic_cast",
+          "children": [
+            {
+              "value": 3281,
+              "label": "声优资讯-其他",
+              "label_raw": "comic_cast_other"
+            }
+          ]
+        },
+        {
+          "value": 221,
+          "label": "漫展资讯",
+          "label_raw": "comic_exhnews",
+          "children": [
+            {
+              "value": 3282,
+              "label": "漫展资讯-其他",
+              "label_raw": "comic_exhnews_other"
+            }
+          ]
+        },
+        {
+          "value": 222,
+          "label": "动漫壁纸",
+          "label_raw": "comic_wallpaper",
+          "children": [
+            {
+              "value": 3283,
+              "label": "动漫壁纸-其他",
+              "label_raw": "comic_wallpaper_other"
+            }
+          ]
+        },
+        {
+          "value": 223,
+          "label": "cosplay",
+          "label_raw": "comic_cosplay",
+          "children": [
+            {
+              "value": 3284,
+              "label": "cosplay-其他",
+              "label_raw": "comic_cosplay_other"
+            }
+          ]
+        },
+        {
+          "value": 224,
+          "label": "二次元游戏",
+          "label_raw": "comic_game",
+          "children": [
+            {
+              "value": 3285,
+              "label": "二次元游戏-其他",
+              "label_raw": "comic_game_other"
+            }
+          ]
+        },
+        {
+          "value": 225,
+          "label": "鬼畜",
+          "label_raw": "comic_remix",
+          "children": [
+            {
+              "value": 3286,
+              "label": "鬼畜-其他",
+              "label_raw": "comic_remix_other"
+            }
+          ]
+        },
+        {
+          "value": 226,
+          "label": "宅舞",
+          "label_raw": "comic_zhaiwu",
+          "children": [
+            {
+              "value": 3287,
+              "label": "宅舞-其他",
+              "label_raw": "comic_zhaiwu_other"
+            }
+          ]
+        },
+        {
+          "value": 227,
+          "label": "动漫相关资讯",
+          "label_raw": "comic_info",
+          "children": [
+            {
+              "value": 3288,
+              "label": "动漫相关资讯-其他",
+              "label_raw": "comic_info_other"
+            }
+          ]
+        },
+        {
+          "value": 228,
+          "label": "手绘",
+          "label_raw": "comic_handdrawing",
+          "children": [
+            {
+              "value": 3289,
+              "label": "手绘-其他",
+              "label_raw": "comic_handdrawing_other"
+            }
+          ]
+        },
+        {
+          "value": 229,
+          "label": "其他",
+          "label_raw": "comic_other",
+          "children": [
+            {
+              "value": 3290,
+              "label": "其他-其他",
+              "label_raw": "comic_other_other"
+            }
+          ]
+        },
+        {
+          "value": 2135,
+          "label": "MMD",
+          "label_raw": "comic_MMD",
+          "children": [
+            {
+              "value": 3291,
+              "label": "MMD-其他",
+              "label_raw": "comic_MMD_other"
+            }
+          ]
+        },
+        {
+          "value": 2136,
+          "label": "AMV",
+          "label_raw": "comic_AMV",
+          "children": [
+            {
+              "value": 3292,
+              "label": "AMV-其他",
+              "label_raw": "comic_AMV_other"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": 14,
+      "label": "游戏",
+      "label_raw": "game",
+      "children": [
+        {
+          "value": 230,
+          "label": "电脑电竞游戏（MOBA）",
+          "label_raw": "game_MOBA",
+          "children": [
+            {
+              "value": 358,
+              "label": "英雄联盟比赛",
+              "label_raw": "game_MOBA_LOLcontest"
+            },
+            {
+              "value": 359,
+              "label": "英雄联盟玩家视频",
+              "label_raw": "game_MOBA_LOLplayer"
+            },
+            {
+              "value": 360,
+              "label": "攻略解说",
+              "label_raw": "game_moba_gonglue"
+            },
+            {
+              "value": 361,
+              "label": "精彩集锦",
+              "label_raw": "game_moba_collection"
+            },
+            {
+              "value": 362,
+              "label": "其他赛事录像",
+              "label_raw": "game_moba_othercontest"
+            },
+            {
+              "value": 363,
+              "label": "其他资讯",
+              "label_raw": "game_moba_otherinfo"
+            }
+          ]
+        },
+        {
+          "value": 231,
+          "label": "电脑网络游戏",
+          "label_raw": "game_online",
+          "children": [
+            {
+              "value": 364,
+              "label": "我的世界",
+              "label_raw": "game_online_minecraft"
+            },
+            {
+              "value": 365,
+              "label": "穿越火线",
+              "label_raw": "game_online_CF"
+            },
+            {
+              "value": 366,
+              "label": "炉石传说",
+              "label_raw": "game_online_lushi"
+            },
+            {
+              "value": 367,
+              "label": "绝地求生",
+              "label_raw": "game_online_juediqiusheng"
+            },
+            {
+              "value": 368,
+              "label": "QQ飞车",
+              "label_raw": "game_online_QQfeiche"
+            },
+            {
+              "value": 369,
+              "label": "DNF",
+              "label_raw": "game_online_DNF"
+            },
+            {
+              "value": 370,
+              "label": "其他网游",
+              "label_raw": "game_online_other"
+            },
+            {
+              "value": 371,
+              "label": "新游介绍",
+              "label_raw": "game_online_newgame"
+            },
+            {
+              "value": 372,
+              "label": "混剪介绍",
+              "label_raw": "game_online_remix"
+            }
+          ]
+        },
+        {
+          "value": 232,
+          "label": "电脑单机游戏",
+          "label_raw": "game_computer",
+          "children": [
+            {
+              "value": 373,
+              "label": "动作游戏",
+              "label_raw": "game_computer_action"
+            },
+            {
+              "value": 374,
+              "label": "策略游戏",
+              "label_raw": "game_computer_strategy"
+            },
+            {
+              "value": 375,
+              "label": "恐怖游戏",
+              "label_raw": "game_computer_terror"
+            },
+            {
+              "value": 376,
+              "label": "冒险游戏",
+              "label_raw": "game_computer_adven"
+            },
+            {
+              "value": 377,
+              "label": "其他单机游戏",
+              "label_raw": "game_computer_other"
+            }
+          ]
+        },
+        {
+          "value": 233,
+          "label": "主机游戏",
+          "label_raw": "game_box",
+          "children": [
+            {
+              "value": 3293,
+              "label": "主机游戏-其他",
+              "label_raw": "game_box_other"
+            }
+          ]
+        },
+        {
+          "value": 234,
+          "label": "掌机游戏",
+          "label_raw": "game_psp",
+          "children": [
+            {
+              "value": 3294,
+              "label": "掌机游戏-其他",
+              "label_raw": "game_psp_other"
+            }
+          ]
+        },
+        {
+          "value": 235,
+          "label": "手机游戏",
+          "label_raw": "game_mobile",
+          "children": [
+            {
+              "value": 378,
+              "label": "王者荣耀玩家视频",
+              "label_raw": "game_mobile_wangzheplayer"
+            },
+            {
+              "value": 379,
+              "label": "王者荣耀比赛",
+              "label_raw": "game_mobile_wangzhecontest"
+            },
+            {
+              "value": 380,
+              "label": "吃鸡",
+              "label_raw": "game_mobile_chiji"
+            },
+            {
+              "value": 381,
+              "label": "狼人杀",
+              "label_raw": "game_mobile_langrensha"
+            },
+            {
+              "value": 382,
+              "label": "其他游戏",
+              "label_raw": "game_mobile_other"
+            }
+          ]
+        },
+        {
+          "value": 236,
+          "label": "游戏主播",
+          "label_raw": "game_zhubo",
+          "children": [
+            {
+              "value": 3295,
+              "label": "游戏主播-其他",
+              "label_raw": "game_zhubo_other"
+            }
+          ]
+        },
+        {
+          "value": 237,
+          "label": "游戏展会",
+          "label_raw": "game_exh",
+          "children": [
+            {
+              "value": 3296,
+              "label": "游戏展会-其他",
+              "label_raw": "game_exh_other"
+            }
+          ]
+        },
+        {
+          "value": 238,
+          "label": "其他",
+          "label_raw": "game_other",
+          "children": [
+            {
+              "value": 3297,
+              "label": "其他-其他",
+              "label_raw": "game_other_other"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": 15,
+      "label": "体育",
+      "label_raw": "sports",
+      "children": [
+        {
+          "value": 239,
+          "label": "足球",
+          "label_raw": "sports_football",
+          "children": [
+            {
+              "value": 383,
+              "label": "欧冠",
+              "label_raw": "sports_football_ouguan"
+            },
+            {
+              "value": 384,
+              "label": "中超",
+              "label_raw": "sports_football_zhongchao"
+            },
+            {
+              "value": 385,
+              "label": "英超",
+              "label_raw": "sports_football_yingchao"
+            },
+            {
+              "value": 386,
+              "label": "西甲",
+              "label_raw": "sports_football_xijia"
+            },
+            {
+              "value": 387,
+              "label": "意甲",
+              "label_raw": "sports_football_yijia"
+            },
+            {
+              "value": 388,
+              "label": "德甲",
+              "label_raw": "sports_football_dejia"
+            },
+            {
+              "value": 389,
+              "label": "亚冠",
+              "label_raw": "sports_football_yaguan"
+            },
+            {
+              "value": 390,
+              "label": "世界杯",
+              "label_raw": "sports_football_worldcup"
+            },
+            {
+              "value": 391,
+              "label": "亚洲杯",
+              "label_raw": "sports_football_asiacup"
+            },
+            {
+              "value": 392,
+              "label": "欧洲杯",
+              "label_raw": "sports_football_eurocup"
+            },
+            {
+              "value": 393,
+              "label": "奥运会",
+              "label_raw": "sports_football_olympic"
+            },
+            {
+              "value": 394,
+              "label": "明星专栏",
+              "label_raw": "sports_football_star"
+            },
+            {
+              "value": 395,
+              "label": "其他赛事",
+              "label_raw": "sports_football_othergame"
+            },
+            {
+              "value": 396,
+              "label": "资讯趣闻",
+              "label_raw": "sports_football_info"
+            },
+            {
+              "value": 397,
+              "label": "其他",
+              "label_raw": "sports_football_other"
+            }
+          ]
+        },
+        {
+          "value": 240,
+          "label": "篮球",
+          "label_raw": "sports_basketball",
+          "children": [
+            {
+              "value": 398,
+              "label": "NBA",
+              "label_raw": "sports_basketball_NBA"
+            },
+            {
+              "value": 399,
+              "label": "CUBA",
+              "label_raw": "sports_basketball_CUBA"
+            },
+            {
+              "value": 3100,
+              "label": "NCAA",
+              "label_raw": "sports_basketball_NCAA"
+            },
+            {
+              "value": 3101,
+              "label": "世锦赛",
+              "label_raw": "sports_basketball_shijinsai"
+            },
+            {
+              "value": 3102,
+              "label": "奥运会",
+              "label_raw": "sports_basketball_olympic"
+            },
+            {
+              "value": 3103,
+              "label": "亚洲杯",
+              "label_raw": "sports_basketball_asiacup"
+            },
+            {
+              "value": 3104,
+              "label": "欧洲锦标赛",
+              "label_raw": "sports_basketball_oujinsai"
+            },
+            {
+              "value": 3105,
+              "label": "欧洲杯",
+              "label_raw": "sports_basketball_eurocup"
+            },
+            {
+              "value": 3106,
+              "label": "明星专栏",
+              "label_raw": "sports_basketball_star"
+            },
+            {
+              "value": 3107,
+              "label": "资讯趣闻",
+              "label_raw": "sports_basketball_info"
+            },
+            {
+              "value": 3108,
+              "label": "中国篮球",
+              "label_raw": "sports_basketball_china"
+            },
+            {
+              "value": 3109,
+              "label": "其他比赛",
+              "label_raw": "sports_basketball_othergame"
+            },
+            {
+              "value": 3110,
+              "label": "其他",
+              "label_raw": "sports_basketball_other"
+            },
+            {
+              "value": 3270,
+              "label": "CBA",
+              "label_raw": "sports_basketball_CBA"
+            }
+          ]
+        },
+        {
+          "value": 241,
+          "label": "乒乓球",
+          "label_raw": "sports_pingpang",
+          "children": [
+            {
+              "value": 3298,
+              "label": "乒乓球-其他",
+              "label_raw": "sports_pingpang_other"
+            }
+          ]
+        },
+        {
+          "value": 242,
+          "label": "排球",
+          "label_raw": "sports_volleyball",
+          "children": [
+            {
+              "value": 3299,
+              "label": "排球-其他",
+              "label_raw": "sports_volleyball_other"
+            }
+          ]
+        },
+        {
+          "value": 243,
+          "label": "网球",
+          "label_raw": "sports_tennis",
+          "children": [
+            {
+              "value": 3300,
+              "label": "网球-其他",
+              "label_raw": "sports_tennis_other"
+            }
+          ]
+        },
+        {
+          "value": 244,
+          "label": "赛车",
+          "label_raw": "sports_race",
+          "children": [
+            {
+              "value": 3301,
+              "label": "赛车-其他",
+              "label_raw": "sports_race_other"
+            }
+          ]
+        },
+        {
+          "value": 245,
+          "label": "大型运动会资讯",
+          "label_raw": "sports_games",
+          "children": [
+            {
+              "value": 3111,
+              "label": "大运会",
+              "label_raw": "sports_games_college"
+            },
+            {
+              "value": 3112,
+              "label": "青奥会",
+              "label_raw": "sports_games_youth"
+            },
+            {
+              "value": 3113,
+              "label": "冬奥会",
+              "label_raw": "sports_games_winter"
+            },
+            {
+              "value": 3114,
+              "label": "亚运会",
+              "label_raw": "sports_games_asia"
+            },
+            {
+              "value": 3115,
+              "label": "奥运会",
+              "label_raw": "sports_games_olympic"
+            },
+            {
+              "value": 3116,
+              "label": "其他",
+              "label_raw": "sports_games_other"
+            }
+          ]
+        },
+        {
+          "value": 246,
+          "label": "户外极限",
+          "label_raw": "sports_extreme",
+          "children": [
+            {
+              "value": 3117,
+              "label": "攀岩",
+              "label_raw": "spors_extreme_rockclimb"
+            },
+            {
+              "value": 3118,
+              "label": "速滑",
+              "label_raw": "sports_extreme_skate"
+            },
+            {
+              "value": 3119,
+              "label": "冲浪",
+              "label_raw": "sports_extreme_surfing"
+            },
+            {
+              "value": 3120,
+              "label": "滑翔伞",
+              "label_raw": "sports_extreme_huaxiangsan"
+            },
+            {
+              "value": 3121,
+              "label": "蹦极",
+              "label_raw": "sports_extreme_bengji"
+            },
+            {
+              "value": 3122,
+              "label": "越野",
+              "label_raw": "sports_extreme_yueye"
+            },
+            {
+              "value": 3123,
+              "label": "速降",
+              "label_raw": "sports_extreme_sujiang"
+            },
+            {
+              "value": 3124,
+              "label": "极限漂流",
+              "label_raw": "sports_extreme_float"
+            },
+            {
+              "value": 3125,
+              "label": "其他",
+              "label_raw": "sports_extreme_other"
+            }
+          ]
+        },
+        {
+          "value": 247,
+          "label": "滑板滑轮",
+          "label_raw": "sports_lunhua",
+          "children": [
+            {
+              "value": 3303,
+              "label": "滑板滑轮-其他",
+              "label_raw": "sports_lunhua_other"
+            }
+          ]
+        },
+        {
+          "value": 248,
+          "label": "健身休闲",
+          "label_raw": "sports_leisure",
+          "children": [
+            {
+              "value": 3126,
+              "label": "跑步",
+              "label_raw": "sports_leisure_run"
+            },
+            {
+              "value": 3127,
+              "label": "健身",
+              "label_raw": "sports_leisure_jianshen"
+            },
+            {
+              "value": 3128,
+              "label": "瑜伽",
+              "label_raw": "sports_leisure_yoga"
+            },
+            {
+              "value": 3129,
+              "label": "广场舞",
+              "label_raw": "sports_leisure_squaredance"
+            },
+            {
+              "value": 3130,
+              "label": "其他",
+              "label_raw": "sports_leisure_other"
+            }
+          ]
+        },
+        {
+          "value": 249,
+          "label": "其他",
+          "label_raw": "sports_other",
+          "children": [
+            {
+              "value": 3304,
+              "label": "其他-其他",
+              "label_raw": "sports_other_other"
+            }
+          ]
+        },
+        {
+          "value": 2143,
+          "label": "拳击格斗",
+          "label_raw": "sports_boxing",
+          "children": [
+            {
+              "value": 3302,
+              "label": "拳击格斗-其他",
+              "label_raw": "sports_boxing_other"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": 16,
+      "label": "科技",
+      "label_raw": "tech",
+      "children": [
+        {
+          "value": 250,
+          "label": "数码",
+          "label_raw": "tech_digi",
+          "children": [
+            {
+              "value": 3131,
+              "label": "手机",
+              "label_raw": "tech_digi_mobile"
+            },
+            {
+              "value": 3132,
+              "label": "相机",
+              "label_raw": "tech_digi_camera"
+            },
+            {
+              "value": 3133,
+              "label": "电脑",
+              "label_raw": "tech_digi_PC"
+            },
+            {
+              "value": 3134,
+              "label": "家电",
+              "label_raw": "tech_digi_jiadian"
+            },
+            {
+              "value": 3135,
+              "label": "智能硬件",
+              "label_raw": "tech_digi_hardware"
+            },
+            {
+              "value": 3136,
+              "label": "穿戴设备",
+              "label_raw": "tech_digi_wearable"
+            },
+            {
+              "value": 3137,
+              "label": "音响设备",
+              "label_raw": "tech_digi_stereo"
+            },
+            {
+              "value": 3138,
+              "label": "游戏设备",
+              "label_raw": "tech_digi_game"
+            },
+            {
+              "value": 3139,
+              "label": "其他",
+              "label_raw": "tech_digi_other"
+            }
+          ]
+        },
+        {
+          "value": 251,
+          "label": "互联网",
+          "label_raw": "tech_internet",
+          "children": [
+            {
+              "value": 3140,
+              "label": "其他",
+              "label_raw": "tech_internet_other"
+            },
+            {
+              "value": 3141,
+              "label": "电商物流",
+              "label_raw": "tech_internet_dianshangwuliu"
+            }
+          ]
+        },
+        {
+          "value": 252,
+          "label": "通信",
+          "label_raw": "tech_commu",
+          "children": [
+            {
+              "value": 3305,
+              "label": "通信-其他",
+              "label_raw": "tech_commu_other"
+            }
+          ]
+        },
+        {
+          "value": 253,
+          "label": "前沿科技",
+          "label_raw": "tech_advanced",
+          "children": [
+            {
+              "value": 3142,
+              "label": "无人机",
+              "label_raw": "tech_advanced_wurenji"
+            },
+            {
+              "value": 3143,
+              "label": "无人驾驶",
+              "label_raw": "tech_advanced_wurenjiashi"
+            },
+            {
+              "value": 3144,
+              "label": "AR",
+              "label_raw": "tech_advanced_AR"
+            },
+            {
+              "value": 3145,
+              "label": "VR",
+              "label_raw": "tech_advanced_vr"
+            },
+            {
+              "value": 3146,
+              "label": "机器人",
+              "label_raw": "tech_advanced_robot"
+            },
+            {
+              "value": 3147,
+              "label": "3D",
+              "label_raw": "tech_advanced_3D"
+            },
+            {
+              "value": 3148,
+              "label": "其他",
+              "label_raw": "tech_advanced_other"
+            }
+          ]
+        },
+        {
+          "value": 254,
+          "label": "天文航空",
+          "label_raw": "tech_astr",
+          "children": [
+            {
+              "value": 3306,
+              "label": "天文航空-其他",
+              "label_raw": "tech_astr_other"
+            }
+          ]
+        },
+        {
+          "value": 255,
+          "label": "科幻",
+          "label_raw": "tech_science",
+          "children": [
+            {
+              "value": 3307,
+              "label": "科幻-其他",
+              "label_raw": "tech_science_other"
+            }
+          ]
+        },
+        {
+          "value": 256,
+          "label": "科学实验",
+          "label_raw": "tech_exp",
+          "children": [
+            {
+              "value": 3308,
+              "label": "科学实验-其他",
+              "label_raw": "tech_exp_other"
+            }
+          ]
+        },
+        {
+          "value": 257,
+          "label": "其他",
+          "label_raw": "tech_other",
+          "children": [
+            {
+              "value": 3309,
+              "label": "其他-其他",
+              "label_raw": "tech_other_other"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": 17,
+      "label": "萌宠",
+      "label_raw": "pet",
+      "children": [
+        {
+          "value": 258,
+          "label": "猫",
+          "label_raw": "pet_cat",
+          "children": [
+            {
+              "value": 3310,
+              "label": "猫-其他",
+              "label_raw": "pet_cat_other"
+            }
+          ]
+        },
+        {
+          "value": 259,
+          "label": "狗",
+          "label_raw": "pet_dog",
+          "children": [
+            {
+              "value": 3311,
+              "label": "狗-其他",
+              "label_raw": "pet_dog_other"
+            }
+          ]
+        },
+        {
+          "value": 260,
+          "label": "鸟",
+          "label_raw": "pet_bird",
+          "children": [
+            {
+              "value": 3312,
+              "label": "鸟-其他",
+              "label_raw": "pet_bird_other"
+            }
+          ]
+        },
+        {
+          "value": 261,
+          "label": "龙猫仓鼠",
+          "label_raw": "pet_mouse",
+          "children": [
+            {
+              "value": 3313,
+              "label": "龙猫仓鼠-其他",
+              "label_raw": "pet_mouse_other"
+            }
+          ]
+        },
+        {
+          "value": 262,
+          "label": "养宠攻略",
+          "label_raw": "pet_gonglue",
+          "children": [
+            {
+              "value": 3314,
+              "label": "养宠攻略-其他",
+              "label_raw": "pet_gonglue_other"
+            }
+          ]
+        },
+        {
+          "value": 263,
+          "label": "日用评测",
+          "label_raw": "pet_test",
+          "children": [
+            {
+              "value": 3315,
+              "label": "日用评测-其他",
+              "label_raw": "pet_test_other"
+            }
+          ]
+        },
+        {
+          "value": 264,
+          "label": "其他",
+          "label_raw": "pet_other",
+          "children": [
+            {
+              "value": 3316,
+              "label": "其他-其他",
+              "label_raw": "pet_other_other"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": 18,
+      "label": "美食",
+      "label_raw": "food",
+      "children": [
+        {
+          "value": 265,
+          "label": "地方美食",
+          "label_raw": "food_local",
+          "children": [
+            {
+              "value": 3317,
+              "label": "地方美食-其他",
+              "label_raw": "food_local_other"
+            }
+          ]
+        },
+        {
+          "value": 266,
+          "label": "美食吃播",
+          "label_raw": "food_shoot",
+          "children": [
+            {
+              "value": 3318,
+              "label": "美食吃播-其他",
+              "label_raw": "food_shoot_other"
+            }
+          ]
+        },
+        {
+          "value": 267,
+          "label": "食谱教程",
+          "label_raw": "food_shipu",
+          "children": [
+            {
+              "value": 3319,
+              "label": "食谱教程-其他",
+              "label_raw": "food_shipu_other"
+            }
+          ]
+        },
+        {
+          "value": 268,
+          "label": "探店点评",
+          "label_raw": "food_shop",
+          "children": [
+            {
+              "value": 3320,
+              "label": "探店点评-其他",
+              "label_raw": "food_shop_other"
+            }
+          ]
+        },
+        {
+          "value": 269,
+          "label": "减肥攻略",
+          "label_raw": "food_jianfei",
+          "children": [
+            {
+              "value": 3321,
+              "label": "减肥攻略-其他",
+              "label_raw": "food_jianfei_other"
+            }
+          ]
+        },
+        {
+          "value": 270,
+          "label": "其他",
+          "label_raw": "food_other",
+          "children": [
+            {
+              "value": 3322,
+              "label": "其他-其他",
+              "label_raw": "food_other_other"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": 19,
+      "label": "搞笑",
+      "label_raw": "funny",
+      "children": [
+        {
+          "value": 271,
+          "label": "鬼畜",
+          "label_raw": "funny_remix",
+          "children": [
+            {
+              "value": 3323,
+              "label": "鬼畜-其他",
+              "label_raw": "funny_remix_other"
+            }
+          ]
+        },
+        {
+          "value": 272,
+          "label": "搞笑段子",
+          "label_raw": "funny_duanzi",
+          "children": [
+            {
+              "value": 3324,
+              "label": "搞笑段子-其他",
+              "label_raw": "funny_duanzi_other"
+            }
+          ]
+        },
+        {
+          "value": 273,
+          "label": "相声小品",
+          "label_raw": "funny_xiaopin",
+          "children": [
+            {
+              "value": 3325,
+              "label": "相声小品-其他",
+              "label_raw": "funny_xiaopin_other"
+            }
+          ]
+        },
+        {
+          "value": 274,
+          "label": "恶搞整蛊",
+          "label_raw": "funny_prank",
+          "children": [
+            {
+              "value": 3326,
+              "label": "恶搞整蛊-其他",
+              "label_raw": "funny_prank_other"
+            }
+          ]
+        },
+        {
+          "value": 275,
+          "label": "雷人糗事",
+          "label_raw": "funny_qiushi",
+          "children": [
+            {
+              "value": 3327,
+              "label": "雷人糗事-其他",
+              "label_raw": "funny_qiushi_other"
+            }
+          ]
+        },
+        {
+          "value": 276,
+          "label": "对嘴秀",
+          "label_raw": "funny_duizuixiu",
+          "children": [
+            {
+              "value": 3328,
+              "label": "对嘴秀-其他",
+              "label_raw": "funny_duizuixiu_other"
+            }
+          ]
+        },
+        {
+          "value": 277,
+          "label": "其他",
+          "label_raw": "funny_other",
+          "children": [
+            {
+              "value": 3329,
+              "label": "其他-其他",
+              "label_raw": "funny_other_other"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": 110,
+      "label": "资讯",
+      "label_raw": "news",
+      "children": [
+        {
+          "value": 278,
+          "label": "社会资讯",
+          "label_raw": "news_social",
+          "children": [
+            {
+              "value": 3149,
+              "label": "民生新闻",
+              "label_raw": "news_social_baixing"
+            },
+            {
+              "value": 3150,
+              "label": "交通新闻",
+              "label_raw": "news_social_traffic"
+            },
+            {
+              "value": 3151,
+              "label": "国际社会",
+              "label_raw": "news_social_international"
+            },
+            {
+              "value": 3153,
+              "label": "人物故事",
+              "label_raw": "news_social_story"
+            },
+            {
+              "value": 3154,
+              "label": "校园新闻",
+              "label_raw": "news_social_school"
+            },
+            {
+              "value": 3155,
+              "label": "其他",
+              "label_raw": "news_social_other"
+            },
+            {
+              "value": 3368,
+              "label": "法制资讯",
+              "label_raw": "news_social_law"
+            },
+            {
+              "value": 3369,
+              "label": "自然灾害",
+              "label_raw": "news_social_disaster"
+            },
+            {
+              "value": 3370,
+              "label": "正能量",
+              "label_raw": "news_social_znl"
+            }
+          ]
+        },
+        {
+          "value": 279,
+          "label": "时政新闻",
+          "label_raw": "news_politics",
+          "children": [
+            {
+              "value": 3156,
+              "label": "国内时政（大陆）",
+              "label_raw": "news_politics_mainland"
+            },
+            {
+              "value": 3157,
+              "label": "国内时政（港澳台）",
+              "label_raw": "news_politics_gangaotai"
+            },
+            {
+              "value": 3158,
+              "label": "国际时政",
+              "label_raw": "news_politics_international"
+            },
+            {
+              "value": 3159,
+              "label": "其他",
+              "label_raw": "news_politics_other"
+            }
+          ]
+        },
+        {
+          "value": 282,
+          "label": "奇闻轶事",
+          "label_raw": "news_interesting",
+          "children": [
+            {
+              "value": 3332,
+              "label": "奇闻轶事-其他",
+              "label_raw": "news_interesting_other"
+            }
+          ]
+        },
+        {
+          "value": 283,
+          "label": "其他",
+          "label_raw": "news_other",
+          "children": [
+            {
+              "value": 3333,
+              "label": "其他-其他",
+              "label_raw": "news_other_other"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": 111,
+      "label": "文化",
+      "label_raw": "cul",
+      "children": [
+        {
+          "value": 284,
+          "label": "文化活动节目",
+          "label_raw": "cul_activity",
+          "children": [
+            {
+              "value": 3160,
+              "label": "文化沙龙",
+              "label_raw": "cul_activity_salon"
+            },
+            {
+              "value": 3161,
+              "label": "对话访谈",
+              "label_raw": "cul_activity_convers"
+            },
+            {
+              "value": 3162,
+              "label": "文化脱口秀",
+              "label_raw": "cul_activity_talkshow"
+            },
+            {
+              "value": 3163,
+              "label": "演讲",
+              "label_raw": "cul_activity_speech"
+            },
+            {
+              "value": 3164,
+              "label": "其他",
+              "label_raw": "cul_activity_other"
+            }
+          ]
+        },
+        {
+          "value": 285,
+          "label": "宗教相关",
+          "label_raw": "cul_religion",
+          "children": [
+            {
+              "value": 3165,
+              "label": "道学",
+              "label_raw": "cul_religion_dao"
+            },
+            {
+              "value": 3166,
+              "label": "佛学",
+              "label_raw": "cul_religion_fo"
+            },
+            {
+              "value": 3167,
+              "label": "儒学",
+              "label_raw": "cul_religion_ru"
+            },
+            {
+              "value": 3168,
+              "label": "基督教",
+              "label_raw": "cul_religion_christ"
+            },
+            {
+              "value": 3169,
+              "label": "其他",
+              "label_raw": "cul_religion_other"
+            }
+          ]
+        },
+        {
+          "value": 286,
+          "label": "历史",
+          "label_raw": "cul_history",
+          "children": [
+            {
+              "value": 3170,
+              "label": "历史解读",
+              "label_raw": "cul_history_jiedu"
+            },
+            {
+              "value": 3171,
+              "label": "历史人物故事",
+              "label_raw": "cul_history_story"
+            },
+            {
+              "value": 3172,
+              "label": "文物考古",
+              "label_raw": "cul_history_arch"
+            },
+            {
+              "value": 3173,
+              "label": "其他",
+              "label_raw": "cul_history_other"
+            }
+          ]
+        },
+        {
+          "value": 287,
+          "label": "读书",
+          "label_raw": "cul_book",
+          "children": [
+            {
+              "value": 3174,
+              "label": "书文朗读",
+              "label_raw": "cul_book_read"
+            },
+            {
+              "value": 3175,
+              "label": "书单推荐",
+              "label_raw": "cul_book_list"
+            },
+            {
+              "value": 3176,
+              "label": "书文评析",
+              "label_raw": "cul_book_pingxi"
+            },
+            {
+              "value": 3177,
+              "label": "其他",
+              "label_raw": "cul_book_other"
+            }
+          ]
+        },
+        {
+          "value": 288,
+          "label": "艺术",
+          "label_raw": "cul_art",
+          "children": [
+            {
+              "value": 3178,
+              "label": "书法赏析",
+              "label_raw": "cul_art_handwriting"
+            },
+            {
+              "value": 3179,
+              "label": "绘画赏析",
+              "label_raw": "cul_art_drawing"
+            },
+            {
+              "value": 3180,
+              "label": "收藏",
+              "label_raw": "cul_art_collection"
+            },
+            {
+              "value": 3181,
+              "label": "其他",
+              "label_raw": "cul_art_other"
+            }
+          ]
+        },
+        {
+          "value": 289,
+          "label": "其他",
+          "label_raw": "cul_other",
+          "children": [
+            {
+              "value": 3334,
+              "label": "其他-其他",
+              "label_raw": "cul_other_other"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": 112,
+      "label": "纪录片",
+      "label_raw": "rec",
+      "children": [
+        {
+          "value": 290,
+          "label": "自然纪录片",
+          "label_raw": "rec_nature",
+          "children": [
+            {
+              "value": 3182,
+              "label": "地理纪录片",
+              "label_raw": "rec_nature_geo"
+            },
+            {
+              "value": 3183,
+              "label": "动物纪录片",
+              "label_raw": "rec_nature_anim"
+            },
+            {
+              "value": 3184,
+              "label": "风景纪录片",
+              "label_raw": "rec_nature_scen"
+            },
+            {
+              "value": 3185,
+              "label": "其他",
+              "label_raw": "rec_nature_other"
+            }
+          ]
+        },
+        {
+          "value": 291,
+          "label": "军事纪录片",
+          "label_raw": "rec_mil",
+          "children": [
+            {
+              "value": 3335,
+              "label": "军事纪录片-其他",
+              "label_raw": "rec_mil_other"
+            }
+          ]
+        },
+        {
+          "value": 292,
+          "label": "历史纪录片",
+          "label_raw": "rec_history",
+          "children": [
+            {
+              "value": 3336,
+              "label": "历史纪录片-其他",
+              "label_raw": "rec_history_other"
+            }
+          ]
+        },
+        {
+          "value": 2137,
+          "label": "人文纪录片",
+          "label_raw": "rec_social",
+          "children": [
+            {
+              "value": 3337,
+              "label": "人文纪录片-其他",
+              "label_raw": "rec_social_other"
+            }
+          ]
+        },
+        {
+          "value": 2138,
+          "label": "人物纪录片",
+          "label_raw": "rec_rec_human",
+          "children": [
+            {
+              "value": 3338,
+              "label": "人物纪录片-其他",
+              "label_raw": "rec_rec_human_other"
+            }
+          ]
+        },
+        {
+          "value": 2139,
+          "label": "科学探索",
+          "label_raw": "rec_science",
+          "children": [
+            {
+              "value": 3339,
+              "label": "科学探索-其他",
+              "label_raw": "rec_science_other"
+            }
+          ]
+        },
+        {
+          "value": 2140,
+          "label": "其他",
+          "label_raw": "rec_other",
+          "children": [
+            {
+              "value": 3340,
+              "label": "其他-其他",
+              "label_raw": "rec_other_other"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": 113,
+      "label": "军事",
+      "label_raw": "mil",
+      "children": [
+        {
+          "value": 293,
+          "label": "军事新闻",
+          "label_raw": "mil_news",
+          "children": [
+            {
+              "value": 3186,
+              "label": "军事纪实",
+              "label_raw": "mil_news_jishi"
+            },
+            {
+              "value": 3187,
+              "label": "军情分析",
+              "label_raw": "mil_news_analy"
+            },
+            {
+              "value": 3188,
+              "label": "其他",
+              "label_raw": "mil_news_other"
+            }
+          ]
+        },
+        {
+          "value": 294,
+          "label": "军事装备",
+          "label_raw": "mil_equip",
+          "children": [
+            {
+              "value": 3189,
+              "label": "枪炮",
+              "label_raw": "mil_equip_gun"
+            },
+            {
+              "value": 3190,
+              "label": "战机",
+              "label_raw": "mil_equip_craft"
+            },
+            {
+              "value": 3191,
+              "label": "航母",
+              "label_raw": "mil_equip_hangmu"
+            },
+            {
+              "value": 3192,
+              "label": "坦克",
+              "label_raw": "mil_equip_tank"
+            },
+            {
+              "value": 3193,
+              "label": "潜艇",
+              "label_raw": "mil_equip_submarine"
+            },
+            {
+              "value": 3194,
+              "label": "其他",
+              "label_raw": "mil_equip_other"
+            }
+          ]
+        },
+        {
+          "value": 295,
+          "label": "战史",
+          "label_raw": "mil_history",
+          "children": [
+            {
+              "value": 3341,
+              "label": "战史-其他",
+              "label_raw": "mil_history_other"
+            }
+          ]
+        },
+        {
+          "value": 296,
+          "label": "其他",
+          "label_raw": "mil_other",
+          "children": [
+            {
+              "value": 3342,
+              "label": "其他-其他",
+              "label_raw": "mil_other_other"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": 114,
+      "label": "教育",
+      "label_raw": "edu",
+      "children": [
+        {
+          "value": 297,
+          "label": "普及知识",
+          "label_raw": "edu_kepu",
+          "children": [
+            {
+              "value": 3195,
+              "label": "科普",
+              "label_raw": "edu_kepu_science"
+            },
+            {
+              "value": 3196,
+              "label": "普法",
+              "label_raw": "edu_kepu_law"
+            },
+            {
+              "value": 3197,
+              "label": "普税",
+              "label_raw": "edu_kepu_tax"
+            },
+            {
+              "value": 3198,
+              "label": "其他",
+              "label_raw": "edu_kepu_other"
+            }
+          ]
+        },
+        {
+          "value": 298,
+          "label": "技能学习",
+          "label_raw": "edu_skills",
+          "children": [
+            {
+              "value": 3199,
+              "label": "软件使用",
+              "label_raw": "edu_skills_software"
+            },
+            {
+              "value": 3200,
+              "label": "编程语言",
+              "label_raw": "edu_skills_code"
+            },
+            {
+              "value": 3201,
+              "label": "产品设计",
+              "label_raw": "edu_skills_design"
+            },
+            {
+              "value": 3202,
+              "label": "数据",
+              "label_raw": "edu_skills_data"
+            },
+            {
+              "value": 3203,
+              "label": "系统硬件",
+              "label_raw": "edu_skills_hardware"
+            },
+            {
+              "value": 3204,
+              "label": "摄影技能",
+              "label_raw": "edu_skills_photograph"
+            },
+            {
+              "value": 3205,
+              "label": "其他技能",
+              "label_raw": "edu_skills_other"
+            }
+          ]
+        },
+        {
+          "value": 299,
+          "label": "求职创业",
+          "label_raw": "edu_job",
+          "children": [
+            {
+              "value": 3206,
+              "label": "求职面经",
+              "label_raw": "edu_job_interview"
+            },
+            {
+              "value": 3207,
+              "label": "职场经验",
+              "label_raw": "edu_job_exp"
+            },
+            {
+              "value": 3208,
+              "label": "其他",
+              "label_raw": "edu_job_other"
+            }
+          ]
+        },
+        {
+          "value": 2100,
+          "label": "学习考试",
+          "label_raw": "edu_exam",
+          "children": [
+            {
+              "value": 3209,
+              "label": "升学考试",
+              "label_raw": "edu_exam_student"
+            },
+            {
+              "value": 3210,
+              "label": "职业考试",
+              "label_raw": "edu_exam_career"
+            },
+            {
+              "value": 3211,
+              "label": "外语学习",
+              "label_raw": "edu_exam_lang"
+            },
+            {
+              "value": 3212,
+              "label": "其他",
+              "label_raw": "edu_exam_other"
+            },
+            {
+              "value": 3213,
+              "label": "study with me",
+              "label_raw": "edu_exam_studywithme"
+            }
+          ]
+        },
+        {
+          "value": 2101,
+          "label": "其他",
+          "label_raw": "edu_other",
+          "children": [
+            {
+              "value": 3343,
+              "label": "其他-其他",
+              "label_raw": "edu_other_other"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": 115,
+      "label": "少儿",
+      "label_raw": "chil",
+      "children": [
+        {
+          "value": 2102,
+          "label": "儿童教育",
+          "label_raw": "chil_edu",
+          "children": [
+            {
+              "value": 3344,
+              "label": "儿童教育-其他",
+              "label_raw": "chil_edu_other"
+            }
+          ]
+        },
+        {
+          "value": 2103,
+          "label": "儿童音乐",
+          "label_raw": "chil_music",
+          "children": [
+            {
+              "value": 3345,
+              "label": "儿童音乐-其他",
+              "label_raw": "chil_music_other"
+            }
+          ]
+        },
+        {
+          "value": 2104,
+          "label": "少儿节目",
+          "label_raw": "chil_cartoon",
+          "children": [
+            {
+              "value": 3346,
+              "label": "少儿节目-其他",
+              "label_raw": "chil_cartoon_other"
+            }
+          ]
+        },
+        {
+          "value": 2105,
+          "label": "其他",
+          "label_raw": "chil_other",
+          "children": [
+            {
+              "value": 3347,
+              "label": "其他-其他",
+              "label_raw": "chil_other_other"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": 116,
+      "label": "旅行",
+      "label_raw": "trav",
+      "children": [
+        {
+          "value": 2106,
+          "label": "旅拍",
+          "label_raw": "trav_shoot",
+          "children": [
+            {
+              "value": 3348,
+              "label": "旅拍-其他",
+              "label_raw": "trav_shoot_other"
+            }
+          ]
+        },
+        {
+          "value": 2107,
+          "label": "旅行攻略",
+          "label_raw": "trav_plan",
+          "children": [
+            {
+              "value": 3214,
+              "label": "酒店民宿",
+              "label_raw": "trav_plan_hotel"
+            },
+            {
+              "value": 3215,
+              "label": "路线规划",
+              "label_raw": "trav_plan_route"
+            },
+            {
+              "value": 3216,
+              "label": "旅行妙招",
+              "label_raw": "trav_plan_skills"
+            },
+            {
+              "value": 3217,
+              "label": "其他",
+              "label_raw": "trav_plan_other"
+            }
+          ]
+        },
+        {
+          "value": 2108,
+          "label": "户外活动",
+          "label_raw": "trav_outdoor",
+          "children": [
+            {
+              "value": 3218,
+              "label": "远足",
+              "label_raw": "trav_outdoor_hiking"
+            },
+            {
+              "value": 3219,
+              "label": "登山",
+              "label_raw": "trav_outdoor_climb"
+            },
+            {
+              "value": 3220,
+              "label": "徒步",
+              "label_raw": "trav_outdoor_walking"
+            },
+            {
+              "value": 3221,
+              "label": "露营",
+              "label_raw": "trav_outdoor_camp"
+            },
+            {
+              "value": 3222,
+              "label": "其他",
+              "label_raw": "trav_outdoor_other"
+            }
+          ]
+        },
+        {
+          "value": 2109,
+          "label": "旅行资讯",
+          "label_raw": "trav_info",
+          "children": [
+            {
+              "value": 3349,
+              "label": "旅行资讯-其他",
+              "label_raw": "trav_info_other"
+            }
+          ]
+        },
+        {
+          "value": 2110,
+          "label": "其他",
+          "label_raw": "trav_other",
+          "children": [
+            {
+              "value": 3350,
+              "label": "其他-其他",
+              "label_raw": "trav_other_other"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": 117,
+      "label": "母婴",
+      "label_raw": "baby",
+      "children": [
+        {
+          "value": 2111,
+          "label": "孕育百科",
+          "label_raw": "baby_preg",
+          "children": [
+            {
+              "value": 3351,
+              "label": "孕育百科-其他",
+              "label_raw": "baby_preg_other"
+            }
+          ]
+        },
+        {
+          "value": 2112,
+          "label": "亲子互动",
+          "label_raw": "baby_interact",
+          "children": [
+            {
+              "value": 3352,
+              "label": "亲子互动-其他",
+              "label_raw": "baby_interact_other"
+            }
+          ]
+        },
+        {
+          "value": 2113,
+          "label": "萌宝秀",
+          "label_raw": "baby_cute",
+          "children": [
+            {
+              "value": 3353,
+              "label": "萌宝秀-其他",
+              "label_raw": "baby_cute_other"
+            }
+          ]
+        },
+        {
+          "value": 2114,
+          "label": "母婴用品",
+          "label_raw": "baby_use",
+          "children": [
+            {
+              "value": 3354,
+              "label": "母婴用品-其他",
+              "label_raw": "baby_use_other"
+            }
+          ]
+        },
+        {
+          "value": 2115,
+          "label": "其他",
+          "label_raw": "baby_other",
+          "children": [
+            {
+              "value": 3355,
+              "label": "其他-其他",
+              "label_raw": "baby_other_other"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": 118,
+      "label": "汽车",
+      "label_raw": "auto",
+      "children": [
+        {
+          "value": 2116,
+          "label": "汽车资讯",
+          "label_raw": "auto_info",
+          "children": [
+            {
+              "value": 3223,
+              "label": "购车评测",
+              "label_raw": "auto_info_test"
+            },
+            {
+              "value": 3224,
+              "label": "汽车广告",
+              "label_raw": "auto_info_ad"
+            },
+            {
+              "value": 3225,
+              "label": "汽车行情",
+              "label_raw": "auto_info_market"
+            },
+            {
+              "value": 3226,
+              "label": "其他",
+              "label_raw": "auto_info_other"
+            }
+          ]
+        },
+        {
+          "value": 2117,
+          "label": "车展",
+          "label_raw": "auto_show",
+          "children": [
+            {
+              "value": 3356,
+              "label": "车展-其他",
+              "label_raw": "auto_show_other"
+            }
+          ]
+        },
+        {
+          "value": 2118,
+          "label": "玩车",
+          "label_raw": "auto_diy",
+          "children": [
+            {
+              "value": 3227,
+              "label": "汽车模型",
+              "label_raw": "auto_diy_model"
+            },
+            {
+              "value": 3228,
+              "label": "汽车改装",
+              "label_raw": "auto_diy_redec"
+            },
+            {
+              "value": 3229,
+              "label": "其他",
+              "label_raw": "auto_diy_other"
+            }
+          ]
+        },
+        {
+          "value": 2119,
+          "label": "用车之道",
+          "label_raw": "auto_skills",
+          "children": [
+            {
+              "value": 3230,
+              "label": "行车知识",
+              "label_raw": "auto_skills_driving"
+            },
+            {
+              "value": 3231,
+              "label": "维修护理",
+              "label_raw": "auto_skills_fix"
+            },
+            {
+              "value": 3232,
+              "label": "其他",
+              "label_raw": "auto_skills_other"
+            }
+          ]
+        },
+        {
+          "value": 2141,
+          "label": "其他",
+          "label_raw": "auto_other",
+          "children": [
+            {
+              "value": 3358,
+              "label": "其他-其他",
+              "label_raw": "auto_other_other"
+            }
+          ]
+        },
+        {
+          "value": 2144,
+          "label": "行车奇闻",
+          "label_raw": "auto_intersect",
+          "children": [
+            {
+              "value": 3357,
+              "label": "行车奇闻-其他",
+              "label_raw": "auto_intersect_other"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": 119,
+      "label": "生活",
+      "label_raw": "life",
+      "children": [
+        {
+          "value": 2120,
+          "label": "家居",
+          "label_raw": "life_house",
+          "children": [
+            {
+              "value": 3233,
+              "label": "房产",
+              "label_raw": "life_house_estate"
+            },
+            {
+              "value": 3234,
+              "label": "装修",
+              "label_raw": "life_house_dec"
+            },
+            {
+              "value": 3235,
+              "label": "家务",
+              "label_raw": "life_house_housework"
+            },
+            {
+              "value": 3236,
+              "label": "其他",
+              "label_raw": "life_house_other"
+            }
+          ]
+        },
+        {
+          "value": 2121,
+          "label": "健康",
+          "label_raw": "life_health",
+          "children": [
+            {
+              "value": 3237,
+              "label": "养生",
+              "label_raw": "life_health_yangsheng"
+            },
+            {
+              "value": 3238,
+              "label": "医疗",
+              "label_raw": "life_health_medic"
+            },
+            {
+              "value": 3239,
+              "label": "整形",
+              "label_raw": "life_health_shaping"
+            },
+            {
+              "value": 3240,
+              "label": "两性",
+              "label_raw": "life_health_sex"
+            },
+            {
+              "value": 3241,
+              "label": "其他",
+              "label_raw": "life_health_other"
+            }
+          ]
+        },
+        {
+          "value": 2122,
+          "label": "生活百科",
+          "label_raw": "life_wiki",
+          "children": [
+            {
+              "value": 3242,
+              "label": "生活技巧",
+              "label_raw": "life_wiki_skills"
+            },
+            {
+              "value": 3243,
+              "label": "手工DIY",
+              "label_raw": "life_wiki_DIY"
+            },
+            {
+              "value": 3244,
+              "label": "旧物改造",
+              "label_raw": "life_wiki_reuse"
+            },
+            {
+              "value": 3245,
+              "label": "其他",
+              "label_raw": "life_wiki_other"
+            }
+          ]
+        },
+        {
+          "value": 2123,
+          "label": "情感",
+          "label_raw": "life_emotion",
+          "children": [
+            {
+              "value": 3359,
+              "label": "情感-其他",
+              "label_raw": "life_emotion_other"
+            }
+          ]
+        },
+        {
+          "value": 2124,
+          "label": "风水星座",
+          "label_raw": "life_constellation",
+          "children": [
+            {
+              "value": 3246,
+              "label": "风水",
+              "label_raw": "life_constellation_fengshui"
+            },
+            {
+              "value": 3247,
+              "label": "星座",
+              "label_raw": "life_constellation_xingzuo"
+            },
+            {
+              "value": 3248,
+              "label": "占卜看相",
+              "label_raw": "life_constellation_zhanbu"
+            },
+            {
+              "value": 3249,
+              "label": "其他",
+              "label_raw": "life_constellation_other"
+            }
+          ]
+        },
+        {
+          "value": 2125,
+          "label": "日常记录",
+          "label_raw": "life_diary",
+          "children": [
+            {
+              "value": 3250,
+              "label": "VLOG",
+              "label_raw": "life_diary_VLOG"
+            },
+            {
+              "value": 3251,
+              "label": "生活随拍",
+              "label_raw": "life_diary_suipai"
+            },
+            {
+              "value": 3252,
+              "label": "其他",
+              "label_raw": "life_diary_other"
+            }
+          ]
+        },
+        {
+          "value": 2142,
+          "label": "其他",
+          "label_raw": "life_other",
+          "children": [
+            {
+              "value": 3360,
+              "label": "其他-其他",
+              "label_raw": "life_other_other"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": 120,
+      "label": "广告",
+      "label_raw": "ad",
+      "children": [
+        {
+          "value": 2126,
+          "label": "创意广告",
+          "label_raw": "ad_idea",
+          "children": [
+            {
+              "value": 3361,
+              "label": "创意广告-其他",
+              "label_raw": "ad_idea_other"
+            }
+          ]
+        },
+        {
+          "value": 2127,
+          "label": "公益广告",
+          "label_raw": "ad_gongyi",
+          "children": [
+            {
+              "value": 3362,
+              "label": "公益广告-其他",
+              "label_raw": "ad_gongyi_other"
+            }
+          ]
+        },
+        {
+          "value": 2128,
+          "label": "品牌广告",
+          "label_raw": "ad_brand",
+          "children": [
+            {
+              "value": 3363,
+              "label": "品牌广告-其他",
+              "label_raw": "ad_brand_other"
+            }
+          ]
+        },
+        {
+          "value": 2129,
+          "label": "宣传片",
+          "label_raw": "ad_xuanchuan",
+          "children": [
+            {
+              "value": 3364,
+              "label": "宣传片-其他",
+              "label_raw": "ad_xuanchuan_other"
+            }
+          ]
+        },
+        {
+          "value": 2130,
+          "label": "其他",
+          "label_raw": "ad_other",
+          "children": [
+            {
+              "value": 3365,
+              "label": "其他-其他",
+              "label_raw": "ad_other_other"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": 121,
+      "label": "达人秀",
+      "label_raw": "talent",
+      "children": [
+        {
+          "value": 2131,
+          "label": "技能展示",
+          "label_raw": "talent_skills",
+          "children": [
+            {
+              "value": 3253,
+              "label": "魔术",
+              "label_raw": "talent_skills_magic"
+            },
+            {
+              "value": 3254,
+              "label": "转笔",
+              "label_raw": "talent_skills_zhuanbi"
+            },
+            {
+              "value": 3255,
+              "label": "魔方",
+              "label_raw": "talent_skills_cube"
+            },
+            {
+              "value": 3256,
+              "label": "模仿秀",
+              "label_raw": "talent_skills_copy"
+            },
+            {
+              "value": 3257,
+              "label": "舞蹈",
+              "label_raw": "talent_skills_dance"
+            },
+            {
+              "value": 3258,
+              "label": "配音秀",
+              "label_raw": "talent_skills_cast"
+            },
+            {
+              "value": 3259,
+              "label": "翻唱",
+              "label_raw": "talent_skills_sing"
+            },
+            {
+              "value": 3260,
+              "label": "手势舞",
+              "label_raw": "talent_skills_fingerdance"
+            },
+            {
+              "value": 3261,
+              "label": "演奏",
+              "label_raw": "talent_skills_play"
+            },
+            {
+              "value": 3262,
+              "label": "绘画",
+              "label_raw": "talent_skills_draw"
+            },
+            {
+              "value": 3263,
+              "label": "其他",
+              "label_raw": "talent_skills_other"
+            }
+          ]
+        },
+        {
+          "value": 2132,
+          "label": "创意自拍",
+          "label_raw": "talent_creativeshoot",
+          "children": [
+            {
+              "value": 3264,
+              "label": "运镜流",
+              "label_raw": "talent_creativeshoot_yunjing"
+            },
+            {
+              "value": 3265,
+              "label": "特效流",
+              "label_raw": "talent_creativeshoot_effect"
+            },
+            {
+              "value": 3266,
+              "label": "其他",
+              "label_raw": "talent_creativeshoot_other"
+            }
+          ]
+        },
+        {
+          "value": 2133,
+          "label": "短片",
+          "label_raw": "talent_film",
+          "children": [
+            {
+              "value": 3267,
+              "label": "自制短剧",
+              "label_raw": "talent_film_zizhi"
+            },
+            {
+              "value": 3268,
+              "label": "reaction",
+              "label_raw": "talent_film_reaction"
+            },
+            {
+              "value": 3269,
+              "label": "其他",
+              "label_raw": "talent_film_other"
+            }
+          ]
+        },
+        {
+          "value": 2134,
+          "label": "其他",
+          "label_raw": "talent_other",
+          "children": [
+            {
+              "value": 3366,
+              "label": "其他-其他",
+              "label_raw": "talent_other_other"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": 124,
+      "label": "财经",
+      "label_raw": "finance",
+      "children": [
+        {
+          "value": 2146,
+          "label": "宏观经济",
+          "label_raw": "finance_macroeco",
+          "children": [
+            {
+              "value": 3371,
+              "label": "经济走势",
+              "label_raw": "finance_macroeco_trend"
+            },
+            {
+              "value": 3372,
+              "label": "税收政策",
+              "label_raw": "finance_macroeco_tax"
+            },
+            {
+              "value": 3373,
+              "label": "其他",
+              "label_raw": "finance_macroeco_other"
+            }
+          ]
+        },
+        {
+          "value": 2147,
+          "label": "实体经济",
+          "label_raw": "finance_realeco",
+          "children": [
+            {
+              "value": 3374,
+              "label": "商业",
+              "label_raw": "finance_realeco_business"
+            },
+            {
+              "value": 3375,
+              "label": "房地产业",
+              "label_raw": "finance_realeco_house"
+            },
+            {
+              "value": 3376,
+              "label": "金融创业",
+              "label_raw": "finance_realeco_venture"
+            },
+            {
+              "value": 3377,
+              "label": "其他",
+              "label_raw": "finance_realeco_other"
+            }
+          ]
+        },
+        {
+          "value": 2148,
+          "label": "投资理财",
+          "label_raw": "finance_investment",
+          "children": [
+            {
+              "value": 3378,
+              "label": "股票",
+              "label_raw": "finance_investment_stock"
+            },
+            {
+              "value": 3379,
+              "label": "基金",
+              "label_raw": "finance_investment_fund"
+            },
+            {
+              "value": 3380,
+              "label": "期货",
+              "label_raw": "finance_investment_futures"
+            },
+            {
+              "value": 3381,
+              "label": "贵金属",
+              "label_raw": "finance_investment_metal"
+            },
+            {
+              "value": 3382,
+              "label": "P2P",
+              "label_raw": "finance_investment_p2p"
+            },
+            {
+              "value": 3383,
+              "label": "其他",
+              "label_raw": "finance_investment_other"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
