@@ -21,3 +21,13 @@ var a = 68 +
     6 +
     12;
 console.log(a);
+
+const message = 'hello world';
+try {
+    const a = JSON.parse(message);
+    console.log(a);
+}
+catch (e) {
+    console.log('error la ');
+}
+
