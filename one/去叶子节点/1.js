@@ -40,5 +40,5 @@ console.log(xmlData)
 // }
 // var nodeList = xmlDoc.getElementsByTagName("area"); // 非IE
 // for (var i = 0; i < nodeList.length; i++) {
-//     //...遍历操作...
+//     //...遍历操作... 
 // }
