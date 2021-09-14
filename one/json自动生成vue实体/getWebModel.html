@@ -1,0 +1,73 @@
+<body>
+    <div style="float: left; width: 100%;">
+        <div style="width: 45%;height: 100%; float: left; display: inline;">
+            <textarea style="width: 100%; height: 100%;" id="start"> {
+                "po_no": "veniam",
+                "parent_purchase_type_id": "voluptate cillum minim",
+                "related_contract_code": "ex",
+                "contract_no": "nulla labore",
+                "item_category": "sit reprehenderit dolore anim",
+                "parent_purchase_type_name": "nostrud minim id",
+                "main_contract_code": "cupidatat amet",
+                "dept_name": "aute esse",
+                "total_amount": -51151140.95066713,
+                "vendor_site_id": "dolore",
+                "ou_code": "esse",
+                "purchase_type_name": "eu est",
+                "pay_description": "ut",
+                "vendor_id": "ullamco",
+                "currency_code": "dolore eu enim officia magna",
+                "purchase_type_id": 40152822,
+                "created_time": "ullamco id culpa",
+                "po_header_guid": "voluptate ipsum",
+                "type_lookup_code": "dolore enim",
+                "dept_id": 14462223,
+                "is_plan_pay": true,
+                "total_standard_amount": 60295571.79907665
+            }</textarea>
+        </div>
+        <div style="width: 10%;height: 100%;float: left; display: inline;text-align: center;">
+            <button style="padding-top: 50%;" onclick="f()">转换</button>
+        </div>
+        <div style="width: 45%;height: 100%;float: left; display: inline;">
+            <textarea style="width: 100%; height: 100%;" id="end"></textarea>
+        </div>
+    </div>
+</body>
+
+<script>
+    function _typeof(obj) {
+        var s = Object.prototype.toString.call(obj);
+        return s.match(/\[object (.*?)\]/)[1].toLowerCase();
+    };
+    function f() {
+        var str = document.getElementById('start').value
+        var data = JSON.parse(str)
+        var objKeys = Object.keys(data)
+
+        var list = [];
+
+
+        objKeys.forEach(item => {
+            var str = '';
+            switch (_typeof(data[item])) {
+                case 'number':
+                    str = item + '?:number'
+                    break;
+                case 'string':
+                    str = item + '?:string'
+                    break;
+                case 'boolean':
+                    str = item + '?:boolean'
+                    break;
+                case 'null':
+                default:
+                    console.log(`Sorry, }.` + item);
+                    throw "有错误哦：看下这个字段" + item;
+            }
+            list.push(str);
+        });
+
+        document.getElementById('end').value = '{' + list.join(';') + '}'
+    }
+</script>
