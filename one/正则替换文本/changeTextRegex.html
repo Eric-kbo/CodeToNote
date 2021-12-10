@@ -1,0 +1,61 @@
+<body>
+    <div style="float: left;margin-bottom: 10px; width: 100%;">
+        <div style="width: 45%;float: left; display: inline;">
+            正则语句
+            <textarea style="width: 100%; height: 50px;" id="regexstr">
+            </textarea>
+        </div>
+        <div style="width: 10%;float: left; display: inline;text-align: center;">
+            |
+        </div>
+        <div style="width: 45%;float: left; display: inline;">
+            替换内容
+            <textarea style="width: 100%; height: 50px;" id="changestr"></textarea>
+        </div>
+    </div>
+    <div style="float: left; width: 100%;">
+        <div style="width: 45%;height: 100%; float: left; display: inline;">
+            原本本
+            <textarea style="width: 100%; height: 100%;" id="start">
+            </textarea>
+        </div>
+        <div style="width: 10%;height: 100%;float: left; display: inline;text-align: center;">
+            <button style="padding-top: 50%;" onclick="d()">转换</button>
+        </div>
+        <div style="width: 45%;height: 100%;float: left; display: inline;">
+            替换文本
+            <textarea style="width: 100%; height: 100%;" id="end"></textarea>
+        </div>
+    </div>
+</body>
+
+<script>
+    function _typeof(obj) {
+        var s = Object.prototype.toString.call(obj);
+        return s.match(/\[object (.*?)\]/)[1].toLowerCase();
+    };
+    function d() {
+        var str = document.getElementById('start').value
+        var list = str.trim().split('\n')
+        var r = []
+        list.forEach(item => {
+            var col = '';
+            var k = item.trim().split(':')
+            if (item) {
+                col = `
+                    {
+                    title: '`+ k[1] + `',
+                    dataIndex:'`+ k[0] + `',
+                    key:'`+ k[0] + `',
+                    align: 'center',
+                    ellipsis: true,
+                    className: 'column-bold',
+                }
+                `
+            }
+            r.push(col)
+        });
+
+        document.getElementById('end').value = '[' + r.join(',') + ']'
+    }
+</script>
