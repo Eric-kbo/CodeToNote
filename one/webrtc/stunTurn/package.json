@@ -1,0 +1,10 @@
+{
+    "name": "stun-ser",
+    "version": "1.0.0",
+    "scripts": {
+        "install_stun": "npm install --save stun"
+    },
+    "dependencies": {
+        "stun": "^2.1.0"
+    }
+}
