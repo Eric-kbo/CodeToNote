@@ -14,7 +14,7 @@ function fileDisplay(filePath) {
     fs.readdir(filePath, function (err, files) {
         if (!err) {
             files.forEach((file, index) => {
-                if (file != 'c!1.js') {
+                if (file != 'changeText.js') {
                     var filedir = path.join(filePath, file);
                     var status = fs.lstatSync(filedir)
                     if (status.isFile()) {
