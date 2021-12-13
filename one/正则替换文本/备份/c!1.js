@@ -1,13 +1,29 @@
-const args = process.argv.slice(2)
+
 var fs = require("fs");
 var path = require('path')
-var theFilePath = path.resolve(args[0] ? args[0] : './one/正则替换文本/test')
+var regexText = ''
+var rootPath = ''
+var oldChangestr = ''
+var changestr = '';
+
+function startChange(regexText, rootPath, oldChangestr, changestr) {
+    this.regexText = regexText;
+    this.rootPath = rootPath;
+    this.oldChangestr = oldChangestr;
+    this.changestr = changestr;
+    if (!regexText || !rootPath || !oldChangestr || !changestr) {
+        alert("有空值！条件必填")
+    } else {
+        fileDisplay(rootPath)
+    }
+}
+
+// var theFilePath = path.resolve('./one/正则替换文本/test')
 // var theFilePath = path.resolve('./')
 var fileNameList = [];
 // var data = fs.readFileSync('one/正则替换文本/a.go');
 // console.log(data.toString());
 
-fileDisplay(theFilePath)
 
 function fileDisplay(filePath) {
     //根据文件路径读取文件，返回文件列表
@@ -31,7 +47,8 @@ function fileDisplay(filePath) {
 
 function changeFile(filePath) {
     var content = fs.readFileSync(filePath, 'utf-8');
-    var regexStr = /ctx.JSON\(http.StatusInternalServerError(.*)(?<!err.Error\(\)\}\))$/
+    // var regexStr = /ctx.JSON\(http.StatusInternalServerError(.*)(?<!err.Error\(\)\}\))$/
+    var regexStr = new RegExp(regexText)
 
     var isR = false;
     var list = content.split('\n');
@@ -43,7 +60,7 @@ function changeFile(filePath) {
     list.forEach(a => {
         if (regexStr.test(a.trim())) {
             console.log(a)
-            text += a.replace('StatusInternalServerError', 'StatusOK') + '\n';
+            text += a.replace(oldChangestr, changestr) + '\n';
         } else {
             text += a + '\n'
         }

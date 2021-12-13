@@ -1,7 +1,7 @@
-const args = process.argv.slice(2)
+
 var fs = require("fs");
 var path = require('path')
-var theFilePath = path.resolve(args[0] ? args[0] : './one/正则替换文本/test')
+var theFilePath = path.resolve('./one/正则替换文本/test')
 // var theFilePath = path.resolve('./')
 var fileNameList = [];
 // var data = fs.readFileSync('one/正则替换文本/a.go');
