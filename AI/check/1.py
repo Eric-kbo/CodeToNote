@@ -2,8 +2,8 @@ from selenium import webdriver
 from time import sleep
 import execjs
 
-username = "v_kuanhuang"
-password = 'asdASD123'
+username = "***"
+password = '**'
 print (username)
 br=webdriver.Chrome()
 br.implicitly_wait(5)
