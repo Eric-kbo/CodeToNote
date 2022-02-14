@@ -31,7 +31,6 @@ function fileDisplay(filePath) {
 
 function changeFile(filePath) {
     var content = fs.readFileSync(filePath, 'utf-8');
-    var regexStr = /ctx.JSON\(http.StatusInternalServerError(.*)(?<!err.Error\(\)\}\))$/
 
     var isR = false;
     var list = content.split('\n');
@@ -41,7 +40,7 @@ function changeFile(filePath) {
     }
     var text = '';
     list.forEach(a => {
-        if (regexStr.test(a.trim())) {
+        if (backRegx(a)) {
             console.log(a)
             text += a.replace('StatusInternalServerError', 'StatusOK') + '\n';
         } else {
@@ -56,4 +55,19 @@ function changeFile(filePath) {
             console.log(filePath + '---->   ok')
         }
     })
+}
+
+var regexStr = /ctx.JSON\(http.StatusInternalServerError(.*)(?<!err.Error\(\)\}\))$/
+var regexStr2 = /ctx.JSON\(http.StatusInternalServerError(.*)(?<!bizErr.Error\(\)\}\))$/
+var elseStr = 'ctx.JSON(http.StatusInternalServerError, models.Response{Code: -1, Message: err.Error()})';
+function backRegx(str) {
+    if (regexStr.test(str.trim())) {
+        if (regexStr2.test(str.trim())) {
+            return true
+        }
+    }
+    else if (str.trim() == elseStr) {
+        return true
+    }
+    return false
 }
