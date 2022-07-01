@@ -16,7 +16,7 @@ func GetMenuTree(ctx *gin.Context) {
 	var request []model.Operation
 	err := ctx.ShouldBindJSON(&request)
 	if err != nil {
-		ctx.JSON(http.StatusInternalServerError, model.ErrorBindJson)
+		ctx.JSON(http.StatusOK, model.ErrorBindJson)
 		return
 	}
 
@@ -36,3 +36,5 @@ func GetMenuTree(ctx *gin.Context) {
 	ctx.JSON(http.StatusOK, result)
 
 }
+
+

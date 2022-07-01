@@ -1,8 +1,8 @@
 const args = process.argv.slice(2)
 var fs = require("fs");
 var path = require('path')
-var theFilePath = path.resolve(args[0] ? args[0] : './replace/正则替换文本/test')
-// var theFilePath = path.resolve('./')
+// var theFilePath = path.resolve(args[0] ? args[0] : './replace/codecc批量处理注释/test')
+var theFilePath = path.resolve('./')
 var fileNameList = [];
 // var data = fs.readFileSync('one/正则替换文本/a.go');
 // console.log(data.toString());
@@ -11,11 +11,15 @@ console.log(theFilePath)
 fileDisplay(theFilePath)
 
 function fileDisplay(filePath) {
+    console.log(1)
     //根据文件路径读取文件，返回文件列表
     fs.readdir(filePath, function (err, files) {
+        console.log(2)
+        console.log(err)
         if (!err) {
+            console.log(3)
             files.forEach((file, index) => {
-                if (file != 'changeText.js') {
+                if (file != 'run.js') {
                     var filedir = path.join(filePath, file);
                     var status = fs.lstatSync(filedir)
                     if (status.isFile()) {
@@ -43,7 +47,7 @@ function changeFile(filePath) {
     list.forEach(a => {
         if (backRegx(a)) {
             console.log(a)
-            text += a.replace('StatusInternalServerError', 'StatusOK') + '\n';
+            text += a + ' _' + '\n';
         } else {
             text += a + '\n'
         }
@@ -58,16 +62,9 @@ function changeFile(filePath) {
     })
 }
 
-var regexStr = /ctx.JSON\(http.StatusInternalServerError(.*)(?<!err.Error\(\)\}\))$/
-var regexStr2 = /ctx.JSON\(http.StatusInternalServerError(.*)(?<!bizErr.Error\(\)\}\))$/
-var elseStr = 'ctx.JSON(http.StatusInternalServerError, models.Response{Code: -1, Message: err.Error()})';
+var regexStr = /^\/\/(.*)/
 function backRegx(str) {
     if (regexStr.test(str.trim())) {
-        if (regexStr2.test(str.trim())) {
-            return true
-        }
-    }
-    else if (str.trim() == elseStr) {
         return true
     }
     return false

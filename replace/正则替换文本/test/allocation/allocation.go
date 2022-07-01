@@ -26,3 +26,5 @@ func GetTypesBySupplierID(ctx *gin.Context) {
 
 	ctx.JSON(http.StatusOK, result.Data)
 }
+
+

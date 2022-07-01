@@ -24,7 +24,7 @@ func GenLocalOrderByCondition(ctx *gin.Context) {
 
 	err := ctx.ShouldBindJSON(&request)
 	if err != nil {
-		ctx.JSON(http.StatusInternalServerError, model.ErrorBindJson)
+		ctx.JSON(http.StatusOK, model.ErrorBindJson)
 		return
 	}
 
@@ -45,7 +45,7 @@ func GenLocalOrderByCondition(ctx *gin.Context) {
 	}
 
 	if result.Code != 0 {
-		ctx.JSON(http.StatusInternalServerError, result)
+		ctx.JSON(http.StatusOK, result)
 		return
 	}
 
@@ -59,7 +59,7 @@ func GenOrderByCondition(ctx *gin.Context) {
 
 	err := ctx.ShouldBindJSON(&request)
 	if err != nil {
-		ctx.JSON(http.StatusInternalServerError, model.ErrorBindJson)
+		ctx.JSON(http.StatusOK, model.ErrorBindJson)
 		return
 	}
 
@@ -80,7 +80,7 @@ func GenOrderByCondition(ctx *gin.Context) {
 	}
 
 	if result.Code != 0 {
-		ctx.JSON(http.StatusInternalServerError, result)
+		ctx.JSON(http.StatusOK, result)
 		return
 	}
 
@@ -94,7 +94,7 @@ func GetOrderByBatchId(ctx *gin.Context) {
 
 	err := ctx.ShouldBindJSON(&request)
 	if err != nil {
-		ctx.JSON(http.StatusInternalServerError, model.ErrorBindJson)
+		ctx.JSON(http.StatusOK, model.ErrorBindJson)
 		return
 	}
 
@@ -110,7 +110,7 @@ func GetOrderByBatchId(ctx *gin.Context) {
 	}
 
 	if result.Code != 0 {
-		ctx.JSON(http.StatusInternalServerError, result)
+		ctx.JSON(http.StatusOK, result)
 		return
 	}
 
@@ -124,7 +124,7 @@ func CancelOrderByBatchId(ctx *gin.Context) {
 	var request model.CancelCondition
 	err := ctx.ShouldBindJSON(&request)
 	if err != nil {
-		ctx.JSON(http.StatusInternalServerError, model.ErrorBindJson)
+		ctx.JSON(http.StatusOK, model.ErrorBindJson)
 		return
 	}
 
@@ -148,7 +148,7 @@ func AuditOrder(ctx *gin.Context) {
 	var request model.AuditCondition
 	err := ctx.ShouldBindJSON(&request)
 	if err != nil {
-		ctx.JSON(http.StatusInternalServerError, model.ErrorBindJson)
+		ctx.JSON(http.StatusOK, model.ErrorBindJson)
 		return
 	}
 
@@ -177,7 +177,7 @@ func SearchInspect(ctx *gin.Context) {
 
 	err := ctx.ShouldBindJSON(&request)
 	if err != nil {
-		ctx.JSON(http.StatusInternalServerError, model.ErrorBindJson)
+		ctx.JSON(http.StatusOK, model.ErrorBindJson)
 		return
 	}
 
@@ -198,7 +198,7 @@ func SearchInspect(ctx *gin.Context) {
 	}
 
 	if result.Code != 0 {
-		ctx.JSON(http.StatusInternalServerError, result)
+		ctx.JSON(http.StatusOK, result)
 		return
 	}
 	ctx.JSON(http.StatusOK, result)
@@ -212,7 +212,7 @@ func InspectNonprocExport(ctx *gin.Context) {
 	var request model.InspectSearchCondition
 	err := json.Unmarshal([]byte(params), &request)
 	if err != nil {
-		ctx.JSON(http.StatusInternalServerError, model.ErrorBindJson)
+		ctx.JSON(http.StatusOK, model.ErrorBindJson)
 		return
 	}
 
@@ -232,12 +232,12 @@ func InspectNonprocExport(ctx *gin.Context) {
 	}
 
 	if result.Code != 0 {
-		ctx.JSON(http.StatusInternalServerError, result)
+		ctx.JSON(http.StatusOK, result)
 		return
 	}
 
 	if result.Data.Count > 10000 {
-		ctx.JSON(http.StatusInternalServerError, model.Response{Code: 315005, Message: "导出数据大于一万条，请重新筛选条件！"})
+		ctx.JSON(http.StatusOK, model.Response{Code: 315005, Message: "导出数据大于一万条，请重新筛选条件！"})
 		return
 	}
 
@@ -310,7 +310,7 @@ func QualityNonprocExport(ctx *gin.Context) {
 	var request model.InspectSearchCondition
 	err := json.Unmarshal([]byte(params), &request)
 	if err != nil {
-		ctx.JSON(http.StatusInternalServerError, model.ErrorBindJson)
+		ctx.JSON(http.StatusOK, model.ErrorBindJson)
 		return
 	}
 
@@ -330,12 +330,12 @@ func QualityNonprocExport(ctx *gin.Context) {
 	}
 
 	if result.Code != 0 {
-		ctx.JSON(http.StatusInternalServerError, result)
+		ctx.JSON(http.StatusOK, result)
 		return
 	}
 
 	if result.Data.Count > 10000 {
-		ctx.JSON(http.StatusInternalServerError, model.Response{Code: 315005, Message: "导出数据大于一万条，请重新筛选条件！"})
+		ctx.JSON(http.StatusOK, model.Response{Code: 315005, Message: "导出数据大于一万条，请重新筛选条件！"})
 		return
 	}
 
@@ -407,7 +407,7 @@ func NonprocForExport(ctx *gin.Context) {
 
 	err := ctx.ShouldBindJSON(&request)
 	if err != nil {
-		ctx.JSON(http.StatusInternalServerError, model.ErrorBindJson)
+		ctx.JSON(http.StatusOK, model.ErrorBindJson)
 		return
 	}
 
@@ -428,17 +428,17 @@ func NonprocForExport(ctx *gin.Context) {
 	}
 
 	if result.Code != 0 {
-		ctx.JSON(http.StatusInternalServerError, result)
+		ctx.JSON(http.StatusOK, result)
 		return
 	}
 
 	if result.Data.Count > 10000 {
-		ctx.JSON(http.StatusInternalServerError, model.Response{Code: 315005, Message: "导出数据大于一万条，请重新筛选条件！"})
+		ctx.JSON(http.StatusOK, model.Response{Code: 315005, Message: "导出数据大于一万条，请重新筛选条件！"})
 		return
 	}
 
 	if result.Data.Count == 0 {
-		ctx.JSON(http.StatusInternalServerError, model.Response{Code: 315005, Message: "当前条件下无可导出数据，请重新筛选条件！"})
+		ctx.JSON(http.StatusOK, model.Response{Code: 315005, Message: "当前条件下无可导出数据，请重新筛选条件！"})
 		return
 	}
 	ctx.JSON(http.StatusOK, result)
@@ -451,7 +451,7 @@ func ExportNonproc(ctx *gin.Context) {
 
 	err := ctx.ShouldBindJSON(&request)
 	if err != nil {
-		ctx.JSON(http.StatusInternalServerError, model.ErrorBindJson)
+		ctx.JSON(http.StatusOK, model.ErrorBindJson)
 		return
 	}
 
@@ -472,17 +472,17 @@ func ExportNonproc(ctx *gin.Context) {
 	}
 
 	if result.Code != 0 {
-		ctx.JSON(http.StatusInternalServerError, result)
+		ctx.JSON(http.StatusOK, result)
 		return
 	}
 
 	if result.Data.Count > 10000 {
-		ctx.JSON(http.StatusInternalServerError, model.Response{Code: 318200, Message: "导出数据大于一万条，请重新筛选条件！"})
+		ctx.JSON(http.StatusOK, model.Response{Code: 318200, Message: "导出数据大于一万条，请重新筛选条件！"})
 		return
 	}
 
 	if result.Data.Count == 0 {
-		ctx.JSON(http.StatusInternalServerError, model.Response{Code: 318200, Message: "当前条件下无可导出数据，请重新筛选条件！"})
+		ctx.JSON(http.StatusOK, model.Response{Code: 318200, Message: "当前条件下无可导出数据，请重新筛选条件！"})
 		return
 	}
 
@@ -499,3 +499,5 @@ func ExportNonproc(ctx *gin.Context) {
 	ctx.Header("Content-Disposition", "attachment; filename="+url.QueryEscape(sheetName+".xlsx"))
 	ctx.Data(http.StatusOK, "application/octet-stream", bs)
 }
+
+
