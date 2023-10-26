@@ -1,0 +1,133 @@
+<body>
+    <div style="float: left; width: 100%;">
+        <div style="width: 45%; float: left; display: inline;">
+            <label>品牌开始：</label>
+            <textarea style="width: 100%; height: 20%;" onchange="start()" id="b_start">
+定制
+H3C
+CISCO
+            </textarea>
+        </div>
+        <div style="width: 10%;float: left; display: inline;text-align: center;">
+            <button style="padding-top: 50%;" onclick="gotJson()">转换</button>
+        </div>
+        <div style="width: 45%;float: left; display: inline;">
+            <label>品牌changed：</label>
+            <textarea style="width: 100%; height: 20%;" id="b_end"></textarea>
+        </div>
+    </div>
+    <div style="float: left; width: 100%;">
+        <div style="width: 45%; float: left; display: inline;">
+            <label>分类开始：</label>
+            <textarea style="width: 100%;height: 20%; " onchange="start()" id="a_start">
+                家具
+                7701
+            </textarea>
+        </div>
+        <div style="width: 10%;float: left; display: inline;text-align: center;">
+            <div style="padding-top: 50%;"></div>
+        </div>
+        <div style="width: 45%;float: left; display: inline;">
+            <label>分类changed：</label>
+            <textarea style="width: 100%;height: 20%; " id="a_end"></textarea>
+        </div>
+    </div>
+
+    <div style="float: left; width: 100%;">
+        <div style="width: 45%; float: left; display: inline;">
+            <label>入口：</label>
+            <textarea style="width: 100%;height: 5%; " onchange="start()" id="entry">
+                OP
+            </textarea>
+        </div>
+    </div>
+
+    <div style="float: left;margin-top: 5rem; width: 100%;">
+        <div style="width: 100%; float: left; display: inline;">
+            <label>最终结果：</label>
+            <textarea style="width: 100%;height: 30%; " id="result">
+                {}
+            </textarea>
+        </div>
+    </div>
+</body>
+
+<script>
+    function _typeof(obj) {
+        var s = Object.prototype.toString.call(obj);
+        return s.match(/\[object (.*?)\]/)[1].toLowerCase();
+    };
+
+    function gotJson() {
+        start(function () {
+            var tp = JSON.parse(document.getElementById('a_end').value);
+            var bd = JSON.parse(document.getElementById('b_end').value);
+            var bd_d = bd.slice(0, 30)
+            var data = {
+                MatiL1Codes: tp,
+                Brands: bd_d,
+            };
+            document.getElementById('result').value = JSON.stringify(data);
+        });
+    }
+
+    function start(callback) {
+        f();
+        d();
+        callback();
+    }
+
+    function f() {
+        var str = document.getElementById('b_start').value
+        var list = str.trim().split('\n')
+        var r = []
+        list.forEach(item => {
+            var col = '';
+            var k = item.trim();
+            if (k) {
+                col = k
+                r.push(col.toString())
+            }
+        });
+
+        document.getElementById('b_end').value = JSON.stringify(r);
+    }
+
+    // function gotJson() {
+    //     start().then(function () {
+    //         var data = {
+    //             MatiL1Codes: document.getElementById('a_end').value,
+    //             Brands: document.getElementById('b_end').value,
+    //         };
+    //         document.getElementById('result').value = JSON.stringify(data);
+    //     });
+    // }
+
+    // function start() {
+    //     return new Promise(function (resolve, reject) {
+    //         f();
+    //         d();
+    //         resolve();
+    //     });
+    // }
+
+    function d() {
+        var str = document.getElementById('a_start').value
+        var list = str.trim().split('\n')
+        var r = []
+        list.forEach(item => {
+            var col = '';
+            var k = item.trim();
+            if (isOnlyDigits(k)) {
+                col = k
+                r.push(col.toString())
+            }
+        });
+
+        document.getElementById('a_end').value = JSON.stringify(r);
+    }
+    function isOnlyDigits(str) {
+        var pattern = /^\d+$/;
+        return pattern.test(str);
+    }
+</script>

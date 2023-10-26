@@ -1,0 +1,57 @@
+<body>
+    <div style="float: left; width: 100%;">
+        <div style="width: 45%;height: 100%; float: left; display: inline;">
+            <textarea style="width: 100%; height: 100%;" id="start">
+                家具
+                7701
+                网络设备类
+                7952
+                安全设备类
+                7953
+                电脑
+                7703
+                办公设备
+                7704
+                软件
+                7957
+            </textarea>
+        </div>
+        <div style="width: 10%;height: 100%;float: left; display: inline;text-align: center;">
+            <button style="padding-top: 50%;" onclick="d()">转换</button>
+        </div>
+        <div style="width: 45%;height: 100%;float: left; display: inline;">
+            <textarea style="width: 100%; height: 100%;" id="end"></textarea>
+        </div>
+    </div>
+</body>
+
+<script>
+    function _typeof(obj) {
+        var s = Object.prototype.toString.call(obj);
+        return s.match(/\[object (.*?)\]/)[1].toLowerCase();
+    };
+    function d() {
+        var str = document.getElementById('start').value
+        var list = str.trim().split('\n')
+        var r = []
+        list.forEach(item => {
+            var col = '';
+            var k = item.trim();
+            if (isOnlyDigits(k)) {
+                col = k
+                r.push(col.toString())
+            }
+        });
+
+        // document.getElementById('end').value = '[' + r.join(',') + ']'
+
+        document.getElementById('end').value = JSON.stringify(r);
+        // document.getElementById('end').value = r.map(function (element) {
+        //     return String(element);
+        // });
+    }
+    function isOnlyDigits(str) {
+        var pattern = /^\d+$/;
+        return pattern.test(str);
+    }
+</script>
